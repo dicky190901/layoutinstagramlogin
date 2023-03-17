@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border: none;
+    margin: auto;
+    margin-top: -30px;
+    width: 70%;
+    
+
+}
+
+.gambar{
+    margin-left: -90px;
+}
+
+.gambar1{
+    position: absolute;
+    margin-left:80px;
+    margin-top: 50px;
+}
+
+.form{
+    display: flex; 
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.boxform{
+    align-items: center;
+}
+
+.inputbox{
+    margin-top: 10px;
+}
+
+.gambar3 img{
+    width: 60%;
+    background-color: black;
+}
+
+.boxinput{
+    margin: 10px 0;
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    text-overflow: ellipsis;
+  }
+  
+  input {
+    padding: 9px 0px 7px 9px;
+    font-size: 12px;
+    width: 16rem;
+    height: 1.2rem;
+    outline: none;
+    background: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+  }
+ 
+
+
+.login-button{
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    background-color: #3897f0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.signup p{
+    font-size: 12px;
+}
+
+
+.hr1{
+    position: absolute;
+    border: 2px solid;
+    width: 3%;
+    margin-left: 87px;
+    color: gray;
+    margin-top: 7px;
+}
+
+.hr2{
+    position: absolute;
+    border: 2px solid;
+    width: 3%;
+    margin-left: 160px;
+    margin-top: -26px;
+    color: gray;
+}
+
+.fb img{
+    width: 55%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.or {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+    margin-top: 6px;
+  }
+  
+  .or .line {
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
+  }
+
+.gambar4{
+    margin-top: -20px;
+}
+
+.gambar5{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.gambar5 img{
+    align-items: center;
+}
+
+.app{
+    width: 30%;
+    
+}
+
+.play{
+    width: 30%;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    
+}
+
+.footer a{
+    font-size: 12px;
+    color: gray;
+}
+
+select{
+    
+    border: none;
+    font-size: 10px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.bawah{
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.bawah p{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 28px;
+    color: gray;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container{
+      flex-direction: column;
+      padding: 10px;
+    }
+    
+    .gambar{
+      margin: 20px 0;
+      margin-left: -220px;
+    }
+    
+    .form{
+      width: 100%;
+      margin: 20px 0;
+    }
+    
+    .inputbox1 input, .inputbox2 input{
+      padding: 5px;
+    }
+    
+    .button input{
+      padding: 7px 30px;
+    }
+    
+    .or{
+      flex-direction: column;
+      margin-top: 10px;
+    }
+    
+    .or .line{
+      width: 90%;
+      margin: 5px auto;
+    }
+    
+    .fb img{
+      width: 40%;
+    }
+    
+    .signup{
+      margin-top: 20px;
+    }
+    
+    .gambar5{
+      flex-direction: column;
+      margin: 20px 0;
+    }
+    
+    .gambar5 img{
+      margin: 10px 0;
+      width: 60%;
+    }
+    
+    .app, .play{
+      width: 50%;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .bawah {
+        margin-top: 20px;
+      }
+  }
+  
+
